@@ -3,6 +3,9 @@ id: asyncstorage
 title: AsyncStorage
 ---
 
+> **Warning** Async Storage has been extracted from react-native core and will be removed in a future release. It can now be installed and imported from `react-native-async-storage` instead of `react-native` See [react-native-community/react-native-async-storage](https://github.com/react-native-community/react-native-async-storage)
+
+
 `AsyncStorage` is a simple, unencrypted, asynchronous, persistent, key-value storage system that is global to the app. It should be used instead of LocalStorage.
 
 It is recommended that you use an abstraction on top of `AsyncStorage` instead of `AsyncStorage` directly for anything more than light usage since it operates globally.
